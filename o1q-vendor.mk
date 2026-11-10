@@ -437,6 +437,7 @@ PRODUCT_PACKAGES += \
     libsns_registry_skel \
     libsnsapi \
     libsnsdiaglog \
+    libspeakercalibration \
     libspl \
     libssc \
     libssc_default_listener \
