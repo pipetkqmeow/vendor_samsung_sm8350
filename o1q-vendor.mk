@@ -427,6 +427,7 @@ PRODUCT_PACKAGES += \
     libsecureui_svcsock \
     libsemnativecarrierfeature \
     libsensorslog \
+    libsnap_vndk \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
     libsns_device_mode_stub \
@@ -696,6 +697,7 @@ PRODUCT_PACKAGES += \
     libsynx \
     libthreadutils \
     libtriplecam_image_optical_zoom \
+    libtswrappercommon \
     libuniplugin \
     libvkmanager_vendor \
     nfc_nci_nxpsn \
