@@ -713,7 +713,13 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio.bridge@2.1 \
     vendor.samsung.hardware.radio.channel@2.0 \
+    vendor.samsung.hardware.wifi.hostapd@3.0 \
+    vendor.samsung.hardware.wifi.supplicant@3.0 \
+    vendor.samsung.hardware.wifi.supplicant@3.1 \
     vendor.samsung.hardware.wifi@2.0 \
+    vendor.samsung.hardware.wifi@2.1 \
+    vendor.samsung.hardware.wifi@2.2 \
+    vendor.samsung.hardware.wifi@2.3 \
     vendor_lib_rfsa_adsp_bm2n06_bin \
     vendor_lib_rfsa_adsp_bm2n08_bin \
     vendor_lib_rfsa_adsp_bm2n12_bin \
