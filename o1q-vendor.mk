@@ -701,6 +701,7 @@ PRODUCT_PACKAGES += \
     libskeymaster4device \
     libsnpe_dsp_domains_v3 \
     libsnpe_wrapper \
+    libspcom \
     libswregistrationalgo \
     libsynaFpSensorTestNwd \
     libsynx \
