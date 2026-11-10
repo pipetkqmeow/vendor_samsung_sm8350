@@ -4262,6 +4262,35 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libmpbase",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmpbase.so",
+            ],
+            shared_libs: [
+                "libc",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmpbase.so",
+            ],
+            shared_libs: [
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libmulawdec",
     owner: "samsung",
     strip: {
@@ -7804,6 +7833,42 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtriplecam_image_optical_zoom",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libtriplecam_image_optical_zoom.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libtriplecam_image_optical_zoom.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
                 "libc",
                 "libm",
                 "libdl",
@@ -17426,27 +17491,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmpbase",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmpbase.so",
-            ],
-            shared_libs: [
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libnanopb",
     owner: "samsung",
     strip: {
@@ -18220,31 +18264,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libos",
                 "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libtriplecam_image_optical_zoom",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libtriplecam_image_optical_zoom.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
                 "libc",
                 "libm",
                 "libdl",

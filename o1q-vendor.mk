@@ -373,6 +373,7 @@ PRODUCT_PACKAGES += \
     libminkdescriptor \
     libminksocket \
     libmmosal \
+    libmpbase \
     libmulawdec \
     liboemcrypto \
     libops \
@@ -452,6 +453,7 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libtinyxml2_1 \
+    libtriplecam_image_optical_zoom \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
     libtrustedapploader \
@@ -687,7 +689,6 @@ PRODUCT_PACKAGES += \
     liblearningmodule \
     libmeters \
     libmmcamera_mfnr \
-    libmpbase \
     libnanopb \
     libofflinedump \
     libofflinelog \
@@ -715,7 +716,6 @@ PRODUCT_PACKAGES += \
     libsynaFpSensorTestNwd \
     libsynx \
     libthreadutils \
-    libtriplecam_image_optical_zoom \
     libuniplugin \
     libvkmanager_vendor \
     nfc_nci_nxpsn \
