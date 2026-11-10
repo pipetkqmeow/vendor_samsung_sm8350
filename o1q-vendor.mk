@@ -664,6 +664,7 @@ PRODUCT_PACKAGES += \
     libegis_fp_normal_sensor_test \
     libengmode_client \
     libfidoauthnr_v2 \
+    libgf_in_system_lib \
     libhypervintf \
     libipebpsstriping \
     libkeymaster_helper \
