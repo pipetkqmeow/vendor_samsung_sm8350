@@ -666,6 +666,7 @@ PRODUCT_PACKAGES += \
     libengmode_client \
     libfidoauthnr_v2 \
     libgf_in_system_lib \
+    libhermes_cred \
     libhypervintf \
     libipebpsstriping \
     libkeymaster_helper \

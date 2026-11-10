@@ -16678,6 +16678,36 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libhermes_cred",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libhermes_cred.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libhardware",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libhypervintf",
     owner: "samsung",
     strip: {
