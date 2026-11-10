@@ -310,6 +310,7 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
+    libatccore \
     libaudcal \
     libaudioconfigstore \
     libbatching \
