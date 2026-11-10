@@ -672,7 +672,6 @@ PRODUCT_PACKAGES += \
     libhypervintf \
     libipebpsstriping \
     libkeymaster_helper \
-    libkeymasterdeviceutils \
     liblearningmodule \
     libmeters \
     libmmcamera_mfnr \
@@ -682,7 +681,6 @@ PRODUCT_PACKAGES += \
     libofflinelog \
     libopencv \
     libos \
-    libpuresoftkeymasterdevice \
     libqfp_sensortest \
     libqtikeymaster4 \
     libreffeature \
