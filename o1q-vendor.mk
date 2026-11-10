@@ -672,6 +672,8 @@ PRODUCT_PACKAGES += \
     libhypervintf \
     libipebpsstriping \
     libkeymaster_helper \
+    libkeymasterdeviceutils \
+    libkeymasterutils \
     liblearningmodule \
     libmeters \
     libmmcamera_mfnr \
