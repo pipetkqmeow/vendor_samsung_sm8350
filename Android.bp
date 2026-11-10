@@ -16846,103 +16846,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libkeymaster4",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymaster4.so",
-            ],
-            shared_libs: [
-                "libkeymaster_messages",
-                "android.hardware.keymaster@4.0",
-                "libcrypto",
-                "libcutils",
-                "libbase",
-                "libhidlbase",
-                "libkeymaster_portable",
-                "libpuresoftkeymasterdevice",
-                "liblog",
-                "libutils",
-                "libkeymaster4support",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeymaster4_1support",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymaster4_1support.so",
-            ],
-            shared_libs: [
-                "android.hardware.keymaster@3.0",
-                "android.hardware.keymaster@4.0",
-                "android.hardware.keymaster@4.1",
-                "libbase",
-                "libcrypto",
-                "libhidlbase",
-                "libkeymaster4support",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeymaster4support",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymaster4support.so",
-            ],
-            shared_libs: [
-                "android.hardware.keymaster@3.0",
-                "android.hardware.keymaster@4.0",
-                "libbase",
-                "libcrypto",
-                "libhardware",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libkeymaster_helper",
     owner: "samsung",
     strip: {
@@ -16978,53 +16881,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libkeymaster_messages",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymaster_messages.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeymaster_portable",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymaster_portable.so",
-            ],
-            shared_libs: [
-                "libcrypto",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libkeymasterdeviceutils",
     owner: "samsung",
     strip: {
@@ -17042,34 +16898,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcrypto",
                 "libspcom",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeymasterutils",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymasterutils.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libQSEEComAPI",
-                "liblog",
-                "libcrypto",
                 "libc++",
                 "libc",
                 "libm",

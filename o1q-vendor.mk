@@ -671,14 +671,8 @@ PRODUCT_PACKAGES += \
     libhermes_cred \
     libhypervintf \
     libipebpsstriping \
-    libkeymaster4 \
-    libkeymaster4_1support \
-    libkeymaster4support \
     libkeymaster_helper \
-    libkeymaster_messages \
-    libkeymaster_portable \
     libkeymasterdeviceutils \
-    libkeymasterutils \
     liblearningmodule \
     libmeters \
     libmmcamera_mfnr \
