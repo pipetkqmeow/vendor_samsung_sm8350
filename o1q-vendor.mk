@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o1q/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/samsung/o1q/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/samsung/o1q/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
+    vendor/samsung/o1q/proprietary/vendor/etc/init/camera.unihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camera.unihal.rc \
     vendor/samsung/o1q/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/samsung/o1q/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/samsung/o1q/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
@@ -286,6 +287,7 @@ PRODUCT_PACKAGES += \
     libq3dtools_esx \
     android.hardware.gnss@2.1-impl-qti \
     audio.a2dpsink.default \
+    camera.unihal.default \
     sound_trigger.primary.lahaina \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.samsung.hardware.audio@1.0-impl \
@@ -448,6 +450,13 @@ PRODUCT_PACKAGES += \
     sensors.flicker \
     sensors.grip \
     sensors.ssc \
+    unihal_android \
+    unihal_cutils \
+    unihal_entry \
+    unihal_filter_unit \
+    unihal_main \
+    unihal_scenario \
+    unihal_uniplugin@1.0 \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
@@ -627,7 +636,6 @@ PRODUCT_PACKAGES += \
     com.qti.settings.sm8350 \
     com.qti.stats.common \
     camera.qcom \
-    camera.unihal.default \
     com.qti.chi.override \
     fingerprint.default \
     gatekeeper.mdfpp \
@@ -691,7 +699,6 @@ PRODUCT_PACKAGES += \
     libuniplugin \
     libvkmanager_vendor \
     nfc_nci_nxpsn \
-    unihal_uniplugin@1.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.samsung.hardware.biometrics.face@2.0 \
     vendor.samsung.hardware.biometrics.face@3.0 \
