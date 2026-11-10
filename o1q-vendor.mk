@@ -313,6 +313,7 @@ PRODUCT_PACKAGES += \
     libaudcal \
     libaudioconfigstore \
     libbatching \
+    libbluetooth_a2dpsink_session \
     libbthost_if \
     libc2d30_bltlib \
     libcacertclient \
