@@ -428,7 +428,7 @@ PRODUCT_PACKAGES += \
     libsdmextension \
     libsdsprpc \
     libsecnativefeature \
-    libsecril-client_vendor \
+    libsecril-client \
     libsecureui_svcsock \
     libsemnativecarrierfeature \
     libsensorslog \
