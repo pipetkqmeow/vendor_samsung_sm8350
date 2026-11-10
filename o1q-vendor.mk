@@ -666,10 +666,19 @@ PRODUCT_PACKAGES += \
     libengmode_client \
     libfidoauthnr_v2 \
     libgf_in_system_lib \
+    libhermes \
+    libhermes_bdbridge \
     libhermes_cred \
     libhypervintf \
     libipebpsstriping \
+    libkeymaster4 \
+    libkeymaster4_1support \
+    libkeymaster4support \
     libkeymaster_helper \
+    libkeymaster_messages \
+    libkeymaster_portable \
+    libkeymasterdeviceutils \
+    libkeymasterutils \
     liblearningmodule \
     libmeters \
     libmmcamera_mfnr \
@@ -679,7 +688,9 @@ PRODUCT_PACKAGES += \
     libofflinelog \
     libopencv \
     libos \
+    libpuresoftkeymasterdevice \
     libqfp_sensortest \
+    libqtikeymaster4 \
     libreffeature \
     libremosaiclib \
     libril_sem \
@@ -690,6 +701,7 @@ PRODUCT_PACKAGES += \
     libscveObjectTracker \
     libscveObjectTracker_stub \
     libsec-ril \
+    libsec_skpmHalTlc \
     libsensorlistener \
     libsensorndkbridge \
     libskeymaster4device \
@@ -714,6 +726,9 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio.bridge@2.1 \
     vendor.samsung.hardware.radio.channel@2.0 \
+    vendor.samsung.hardware.security.drk@2.0 \
+    vendor.samsung.hardware.security.fkeymaster-V1-ndk_platform \
+    vendor.samsung.hardware.security.skpm@1.0 \
     vendor.samsung.hardware.wifi.hostapd@3.0 \
     vendor.samsung.hardware.wifi.supplicant@3.0 \
     vendor.samsung.hardware.wifi.supplicant@3.1 \
